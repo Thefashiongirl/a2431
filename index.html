@@ -39,7 +39,7 @@
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css" />
     <!-- Bootstrap-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css?v=1.1" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- Style -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Responsive Style -->
@@ -294,6 +294,52 @@
     <!-- SLIDER START -->
     <section class="main-slider ">
         <style type="text/css">
+
+            /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header .countdown {
+  /*margin-bottom: 80px;*/
+}
+#header .countdown div {
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+display: inline-block;
+
+  padding: 20px 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border-top: 5px solid #ff0000;
+}
+#header .countdown div h3 {
+  font-weight: 700;
+  color: yellow !important;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+#header .countdown div h4 {
+  font-size: 16px;
+  color: yellow !important;
+  font-weight: 600;
+}
+@media (max-width: 575px) {
+  #header .countdown div {
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
+  }
+  #header .countdown div h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  #header .countdown div h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+
             div#n2-ss-4 {
                 width: 1200px;
                 float: left;
@@ -1038,7 +1084,7 @@
                                                     data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1"
                                                     data-adaptivefont="0" data-desktopportraitfontsize="100" data-tabletportraitfontsize="80"
                                                     data-mobileportraitfontsize="50" data-plugin="rendered">
-                                                    <div id="n2-ss-4item1" class="n2-font-be0a516f76efd05e36733289aaf2a6de-hover   n2-ow" style="display:block;">GAMING NFT GIRLS</div>
+                                                    <div id="n2-ss-4item1" class="n2-font-be0a516f76efd05e36733289aaf2a6de-hover   n2-ow" style="display:block;">3D VIRTUAL REALITY MODELS</div>
                                                 </div>
                                                 <div class="n2-ss-layer n2-ow" style="margin:0em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|0|*|0|*|px+"
                                                     data-desktopportraitheight="0" data-has-maxwidth="0" data-desktopportraitmaxwidth="0"
@@ -1051,7 +1097,7 @@
                                                     <div id="n2-ss-4item2" class="n2-font-e5e826a3ba83ea69731d81df1c0fa84d-hover n2-style-01ddb7ca1f625e69d1a2381951aa5192-heading   n2-ow"
                                                         style="display:block;">GNG into The NFT Metaverse</div>
                                                 </div>
-                                                <div class="n2-ss-layer n2-ow" style="margin:2.5em 0em 0em 0em ;max-width: 955px;overflow:visible;" data-pm="normal" data-desktopportraitmargin="150|*|0|*|0|*|0|*|px+"
+                                                <div class="n2-ss-layer n2-ow" style="margin:0em 0em 0em 0em ;max-width: 955px;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|0|*|0|*|px+"
                                                     data-desktopportraitheight="0" data-has-maxwidth="1" data-desktopportraitmaxwidth="955"
                                                     data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-sstype="layer"
                                                     data-rotation="0" data-animations="eyJzcGVjaWFsWmVybyI6MCwiaW4iOlt7Im5hbWUiOiJCbHVyIiwiZGVsYXkiOjAuOCwib3BhY2l0eSI6MCwibjJibHVyIjoxMH1dfQ=="
@@ -1059,8 +1105,26 @@
                                                     data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1"
                                                     data-adaptivefont="0" data-desktopportraitfontsize="100" data-tabletportraitfontsize="80"
                                                     data-mobileportraitfontsize="90" data-plugin="rendered">
-                                                    <div class="n2-ow n2-ow-all n2-ss-desktop n2-ss-mobile n2-ss-tablet">
+                                                    <div class="n2-ow n2-ow-all n2-ss-desktop n2-ss-mobile n2-ss-tablet" id="header">
                                                         <!-- <p class="n2-font-7753338b51c1a1442e4b2825494fb15e-paragraph   n2-ow">We are bringing GNGs into The NFT Metaverse.Get ready for an invasion of GNGs on Ethereum blockchain.<br>Early bird: February 14, 11:00 PM UTC</p> -->
+                                                        <div class="countdown d-flex justify-content-center" data-count="2022/02/19 11:00:00">
+                                                            <div>
+                                                              <h3>%d</h3>
+                                                              <h4>Days</h4>
+                                                            </div>
+                                                            <div>
+                                                              <h3>%h</h3>
+                                                              <h4>Hours</h4>
+                                                            </div>
+                                                            <div>
+                                                              <h3>%m</h3>
+                                                              <h4>Minutes</h4>
+                                                            </div>
+                                                            <div>
+                                                              <h3>%s</h3>
+                                                              <h4>Seconds</h4>
+                                                            </div>
+                                                          </div>
                                                     </div>
                                                 </div>
                                                 <div class="n2-ss-layer n2-ow" style="margin:3.125em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="50|*|0|*|0|*|0|*|px+"
@@ -1101,6 +1165,87 @@
             </div>
         </div>
         <script type="text/javascript">
+
+            /**
+* Template Name: ComingSoon - v4.6.0
+* Template URL: https://bootstrapmade.com/comingsoon-free-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+(function() {
+  "use strict";
+
+  /**
+   * Easy selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
+
+  /**
+   * Easy event listener function
+   */
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all)
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
+      }
+    }
+  }
+
+  /**
+   * Easy on scroll event listener 
+   */
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
+  }
+
+  /**
+   * Back to top button
+   */
+  let backtotop = select('.back-to-top')
+  if (backtotop) {
+    const toggleBacktotop = () => {
+      if (window.scrollY > 100) {
+        backtotop.classList.add('active')
+      } else {
+        backtotop.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', toggleBacktotop)
+    onscroll(document, toggleBacktotop)
+  }
+
+  /**
+   * Countdown timer
+   */
+  let countdown = select('.countdown');
+  const output = countdown.innerHTML;
+
+  const countDownDate = function() {
+    let timeleft = new Date(countdown.getAttribute('data-count')).getTime() - new Date().getTime();
+
+    let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+    countdown.innerHTML = output.replace('%d', days).replace('%h', hours).replace('%m', minutes).replace('%s', seconds);
+  }
+  countDownDate();
+  setInterval(countDownDate, 1000);
+
+})()
+
+
             N2R(["nextend-frontend", "smartslider-frontend", "nextend-gsap", "nextend-webfontloader",
                 "smartslider-simple-type-frontend"
             ], function () {
@@ -1360,7 +1505,7 @@ we tend to unified the foremost intimate folks within the trade to deliver a rem
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
                     <i class="fa fa-users fsize-58 text-gradient" aria-hidden="true"></i>
                     <div class="mt20">
-                        <div class="fsize-40 fweight-700 font-agency color-white lheight-47">0.04+</div>
+                        <div class="fsize-40 fweight-700 font-agency color-white lheight-47">0.5+</div>
                         <div class="fsize-14 fweight-700 uppercase color-white">ETH</div>
                     </div>
                 </div>
@@ -2089,7 +2234,7 @@ we tend to unified the foremost intimate folks within the trade to deliver a rem
                                 </a>
                                 <div class="collapse spoiler-hidden plr20" id="spoiler-14">
                                     <div class="open-bl">
-                                        <p>Each GNG will cost 0.04 ETH to mint for early bird only.</p>
+                                        <p>Each GNG will cost 0.5 ETH to mint for early bird only.</p>
                                     </div>
                                 </div>
                             </li>
@@ -2101,7 +2246,7 @@ we tend to unified the foremost intimate folks within the trade to deliver a rem
                                 </a>
                                 <div class="collapse spoiler-hidden plr20" id="spoiler-15">
                                     <div class="open-bl">
-                                        <p>Early bird will start before public sale.The public mint will begin and will last until the collection sells out.</p>
+                                        <p>Early bird will start on 19th February 2022.The public mint will begin and will last until the collection sells out.</p>
                                     </div>
                                 </div>
                             </li>
@@ -2153,6 +2298,19 @@ we tend to unified the foremost intimate folks within the trade to deliver a rem
                                 <div class="collapse spoiler-hidden plr20" id="spoiler-19">
                                     <div class="open-bl">
                                         <p>To accommodate future growth of the Metaverse future will be minted using GNG.</p>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                             <li class="column-item panel panel-default">
+                                <a href="#spoiler-20" data-toggle="collapse" data-parent="#collapse-group3" class="block td-none ptb20 plr30 collapsed">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span class="column-title uppercase fsize-14 fweight-700">why should we buy GNG NFT here?</span>
+                                </a>
+                                <div class="collapse spoiler-hidden plr20" id="spoiler-20">
+                                    <div class="open-bl">
+                                        <p>On March 13 we are going to migrate with top most Gaming Company in the world. Those who are holding GNG NFT Token for at least one month.using this GNG they can enter into the game using this avatars.</p>
                                     </div>
                                 </div>
                             </li>
@@ -2359,7 +2517,7 @@ we tend to unified the foremost intimate folks within the trade to deliver a rem
     <!-- FOOTER END -->
     <a href="#" id="toTop" class="color-white">
         <i class="fa fa-angle-up fsize-14" aria-hidden="true"></i>
-    </a>
+	</a>
     <!-- Scripts -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
